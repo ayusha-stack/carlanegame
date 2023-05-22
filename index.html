@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&family=Righteous&family=Piedra&display=swap" rel="stylesheet">
+  <title>Car 3 Lane Game</title>
+</head>
+<body>
+
+<canvas height="700" width="550" id="car-game"></canvas>
+<div class="game-top">
+  <div class="score-container clearfix">
+    <div class="score-icon">
+      
+    </div>
+    <span class="score-number" id="score-number">0</span>
+  </div>
+</div>
+<div id="game-over-overlay">
+  <div class="game-over-message">
+    <img src="assets/game-over.jpeg" alt="game over">
+  </div>
+  <div class="crashed-image">
+    <img src="assets/crashed.png" alt="crashed">
+  </div>
+  <div class="player-score">
+    <p class="score-title">You Scored</p>
+    <span id="scored"></span>
+  </div>
+  <div class="try-again">
+    <a id="retry">
+      <img src="assets/retry.png" alt="retry">
+    </a>
+  </div>
+</div>
+<div id="home-screen">
+  <div class="banner-text">
+    2D <br> CAR LANE <br> RACING
+  </div>
+  <div id="play-game">
+    <img src="assets/play.png" alt="play game">
+  </div>
+  <p class="instructions">
+<img class="info" src="assets/info.png" alt="info">Left arrow key for left side, right arrow key for right move and Up arrow key to fire
+  </p>
+</div>
+<script src="js/app.js" type="module"></script>
+</body>
+</html>

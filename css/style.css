@@ -1,0 +1,135 @@
+
+#car-game, #game-over-overlay, #home-screen{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.score-container{
+  position: absolute;
+  left: 63%;
+  top: 9%;
+  padding: 4px 10px;
+  background-color: #75abbc;
+  border-radius: 6px;
+  transform: translate(-50%, -50%);
+}
+.score-icon{
+  width: 40px;
+  height: auto;
+  float: left;
+  margin-top: 7px;
+  margin-right: 4px;
+}
+.clearfix:after{
+  clear: both;
+  display: table;
+  content: '';
+}
+.score-icon img{
+  width: 100%;
+}
+.score-number{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+}
+
+#game-over-overlay{
+  background-color: rgba(0,0,0,0.6);
+  width: 550px;
+  height: 700px;
+}
+
+.game-over-message{
+  width: 300px;
+  margin-left: 20%;
+}
+.game-over-message img{
+  width: 100%;
+}
+.crashed-image{
+  width: 340px;
+  margin: 0 auto;
+}
+.crashed-image img{
+  width: 100%;
+}
+.player-score{
+  text-align: center;
+  color: white;
+}
+.score-title{
+  font-family: 'Righteous', cursive;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  font-size: 34px;
+}
+#scored{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+}
+.try-again{
+  width: 50px;
+  margin: 15px auto;
+  padding: 3px 14px;
+  border: 1px solid #a8dadc;
+  border-radius: 6px;
+  background-color: #1d3557;
+
+}
+#retry{
+  width: 100%;
+  cursor: pointer;
+
+}
+#retry img{
+  transition: 0.3s ease-in-out;
+}
+#retry img:hover{
+  transform: rotate(270deg);
+}
+#game-over-overlay{
+  display: none;
+}
+
+#home-screen{
+  width: 550px;
+  height: 700px;
+  background: url('../assets/coverimg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#play-game{
+  width: 250px;
+  margin: 200px auto;
+  cursor: pointer;
+  transition: 0.5s ease-in-out transform;
+}
+#play-game:hover{
+  transform: scale(1.1);
+}
+#play-game img{
+  width: 100%;
+}
+.banner-text{
+  font-family: 'Arial';
+  font-size: 77px;
+  text-align: center;
+  color:black;
+  background-color: azure ;
+}
+.info{
+  width: 15px;
+  display: inline-block;
+}
+.instructions{
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  position: absolute;
+  bottom: -18px;
+  color: #e9c46a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0,0,0,0.6);
+}
